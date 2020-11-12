@@ -1,491 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>SystemMaster</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="SystemMaster">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="images/iconoTitle.png" />
-<link rel="stylesheet" type="text/css" href="librerias/bootstrap4/bootstrap.min.css">
-<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css">
-<link href="plugins/icon-font/styles.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/main_styles.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
-<link rel="stylesheet" href="./css/extra.css">
+	<title>SystemMaster</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="SystemMaster">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/iconoTitle.png" />
+	<link rel="stylesheet" type="text/css" href="librerias/bootstrap4/bootstrap.min.css">
+	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css">
+	<link href="plugins/icon-font/styles.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="./css/extra.css">
 </head>
 
 <body>
 
-<div class="super_container">
-	
-	<!-- Encabezado -->
+	<div class="super_container">
+		<!-- Encabezado -->
+		<header class="header d-flex flex-row justify-content-end align-items-center trans_200">
 
-	<header class="header d-flex flex-row justify-content-end align-items-center trans_200">
-		
-		<!-- Logo -->
-		<div class="logo mr-auto">
-			<a href="#">System<span>Master</span></a>
-		</div>
+			<!-- Logo -->
+			<div class="logo mr-auto">
+				<a href="#">System<span>Master</span></a>
+			</div>
 
-		<!-- Barra Navegacion -->
-		<nav class="main_nav justify-self-end text-right">
-			<ul>
-				<li class="active"><a href="#">General</a></li>
-				<li><a href="portfolio.html">Mision/Vision</a></li>
-				<li><a href="services.html">Servicios</a></li>
-				<li><a href="contact.html">Contacto</a></li>
-				<li><a href="about.html">Acerca de</a></li>
-			</ul>
-		</nav>
-
-		<!-- XXX -->
-		<div class="hamburger_container bez_1">
-			<i class="fas fa-bars trans_200"></i>
-		</div>
-		
-	</header>
-
-	<!-- Menu -->
-
-	<div class="menu_container">
-		<div class="menu menu_mm text-right">
-			<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
-			<ul class="menu_mm">
-				<li class="menu_mm active"><a href="#">General</a></li>
-				<li class="menu_mm"><a href="portfolio.html">Mision/Vision</a></li>
-				<li class="menu_mm"><a href="services.html">Servicios</a></li>
-				<li class="menu_mm"><a href="contact.html">Contacto</a></li>
-				<li class="menu_mm"><a href="about.html">Acerca de</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<!-- Sliders -->
-
-	<div class="home">
-		<!-- <div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(images/fondo.jpg)"></div>
-		</div> -->
-				<!-- Slider -->
-				<ul class="slides">
-					<input type="radio" name="radio-btn" id="img-1" checked />
-					<li class="slide-container">
-						<div class="slide">
-							<img src="https://www.qempo.com.pe/blog/wp-content/uploads/2019/08/asus-republic-of-gamers-peru.jpg" />
-						</div>
-						<div class="nav">
-							<label for="img-6" class="prev">&#x2039;</label>
-							<label for="img-2" class="next">&#x203a;</label>
-						</div>
-					</li>
-				
-					<input type="radio" name="radio-btn" id="img-2" />
-					<li class="slide-container">
-						<div class="slide">
-							<img src="https://i.pinimg.com/originals/cf/c3/4b/cfc34bcc38e39f1e07c0ba8d3c3e557e.jpg" />
-						</div>
-						<div class="nav">
-							<label for="img-1" class="prev">&#x2039;</label>
-							<label for="img-3" class="next">&#x203a;</label>
-						</div>
-					</li>
-				
-					<input type="radio" name="radio-btn" id="img-3" />
-					<li class="slide-container">
-						<div class="slide">
-							<img src="https://www.xmg.gg/wp-content/uploads/background_fusion-15.jpg" />
-						</div>
-						<div class="nav">
-							<label for="img-2" class="prev">&#x2039;</label>
-							<label for="img-4" class="next">&#x203a;</label>
-						</div>
-					</li>
-				
-					<input type="radio" name="radio-btn" id="img-4" />
-					<li class="slide-container">
-						<div class="slide">
-							<img src="https://images5.alphacoders.com/757/thumb-1920-757508.jpg" />
-						</div>
-						<div class="nav">
-							<label for="img-3" class="prev">&#x2039;</label>
-							<label for="img-5" class="next">&#x203a;</label>
-						</div>
-					</li>
-				
-					<input type="radio" name="radio-btn" id="img-5" />
-					<li class="slide-container">
-						<div class="slide">
-							<img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/05/dell-xps-17-xps-15-1941589.jpg" />
-						</div>
-						<div class="nav">
-							<label for="img-4" class="prev">&#x2039;</label>
-							<label for="img-6" class="next">&#x203a;</label>
-						</div>
-					</li>
-				
-					<input type="radio" name="radio-btn" id="img-6" />
-					<li class="slide-container">
-						<div class="slide">
-							<img src="https://besthqwallpapers.com/img/original/94942/dell-black-logo-creative-metal-grid-background-dell-logo-brands.jpg" />
-						</div>
-						<div class="nav">
-							<label for="img-5" class="prev">&#x2039;</label>
-							<label for="img-1" class="next">&#x203a;</label>
-						</div>
-					</li>
-				
-					<li class="nav-dots">
-						<label for="img-1" class="nav-dot" id="img-dot-1"></label>
-						<label for="img-2" class="nav-dot" id="img-dot-2"></label>
-						<label for="img-3" class="nav-dot" id="img-dot-3"></label>
-						<label for="img-4" class="nav-dot" id="img-dot-4"></label>
-						<label for="img-5" class="nav-dot" id="img-dot-5"></label>
-						<label for="img-6" class="nav-dot" id="img-dot-6"></label>
-					</li>
+			<!-- Barra Navegacion -->
+			<nav class="main_nav justify-self-end text-right">
+				<ul>
+					<li class="active"><a href="#">General</a></li>
+					<li><a href="portfolio.html">Mision/Vision</a></li>
+					<li><a href="services.html">Servicios</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+					<li><a href="about.html">Acerca de</a></li>
 				</ul>
-	</div>
+			</nav>
 
-	<!-- Icon Boxes -->
-
-	<div class="icon_boxes">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="icon_box_title">
-						<h1>Estamos Prestos a Servirle!</h1>
-					</div>
-					<div class="button icon_box_button trans_200">
-						<a href="contact.html" class="trans_200">Contactenos</a>
-					</div>
-				</div>
-
-				<div class="col-lg-4 icon_box_col">
-
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Desarrollo Web</h2>
-						<p>Desarrollamos paginas web de acuerdo a sus necesidades, con herramientas capaces de diseñar paginas tan 
-							eficientes y ajustables a cualquier tipo de plataforma.</p>
-					</div>
-
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Desarrollo App Movil</h2>
-						<p>Desarrollamos apps moviles con el fin de facilitar y simplicar el uso de servicios web dando paso
-							al manejo sencillo desde su Smartphone.</p>
-					</div>
-
-				</div>
-
-				<div class="col-lg-4 icon_box_col">
-
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Equipos Informaticos</h2>
-						<p>Ofrecemos productos tecnologicos de primera calidad, dejando de lado la vieja tecnologia y mirando hacia 
-							el futuro, un futro que nos trae grandes cosas.</p>
-					</div>
-
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Servicios Informaticos</h2>
-						<p>Contamos con tecnicos profesionales, brindando un excelente servicio a nuestros clientes y de esta forma 
-							hacer de nuestra empresa la mejor.</p>
-					</div>
-					
-				</div>
+			<!-- XXX -->
+			<div class="hamburger_container bez_1">
+				<i class="fas fa-bars trans_200"></i>
 			</div>
-		</div>
-	</div>
 
-	<!-- Servicios -->
+		</header>
 
-	<div class="services">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_title">
-						<h1>Algunos de Nuestros Productos/Servicios</h1>
-						<span>Exploremos</span>
-					</div>
+		<!-- Menu -->
+
+		<div class="menu_container" style="background-color: rgb(108, 104, 104);">
+			<!-- ID Particles.js -->
+			<div id="particles-js">
+				<div class="menu menu_mm text-right">
+					<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
+					<ul class="menu_mm">
+						<li class="menu_mm active"><a href="#">General</a></li>
+						<li class="menu_mm"><a href="portfolio.html">Mision/Vision</a></li>
+						<li class="menu_mm"><a href="services.html">Servicios</a></li>
+						<li class="menu_mm"><a href="contact.html">Contacto</a></li>
+						<li class="menu_mm"><a href="about.html">Acerca de</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 
-		<div class="h_slider_container services_slider_container">
-			<div class="service_slider_outer">
-				<!-- Services Slider -->
-				<div class="owl-carousel owl-theme services_slider">
-					
-					<!-- Services Slider Item-->
-					<div class="owl-item services_item">
-						<div class="services_item_inner">
-							<div class="service_item_content">
-								<div class="service_item_title">
-									<div class="service_item_icon">
-										<div data-icon="&#xe020;" class="icon"></div>
+		<!-- Sliders -->
+
+		<div class="home">
+			<ul class="slides">
+				<input type="radio" name="radio-btn" id="img-1" checked />
+				<li class="slide-container">
+					<div class="slide">
+						<img
+							src="https://www.qempo.com.pe/blog/wp-content/uploads/2019/08/asus-republic-of-gamers-peru.jpg" />
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-2" />
+				<li class="slide-container">
+					<div class="slide">
+						<img src="https://i.pinimg.com/originals/cf/c3/4b/cfc34bcc38e39f1e07c0ba8d3c3e557e.jpg" />
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-3" />
+				<li class="slide-container">
+					<div class="slide">
+						<img src="https://www.xmg.gg/wp-content/uploads/background_fusion-15.jpg" />
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-4" />
+				<li class="slide-container">
+					<div class="slide">
+						<img src="https://images5.alphacoders.com/757/thumb-1920-757508.jpg" />
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-5" />
+				<li class="slide-container">
+					<div class="slide">
+						<img
+							src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/05/dell-xps-17-xps-15-1941589.jpg" />
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-6" />
+				<li class="slide-container">
+					<div class="slide">
+						<img
+							src="https://besthqwallpapers.com/img/original/94942/dell-black-logo-creative-metal-grid-background-dell-logo-brands.jpg" />
+					</div>
+				</li>
+
+				<li class="nav-dots">
+					<label for="img-1" class="nav-dot" id="img-dot-1"></label>
+					<label for="img-2" class="nav-dot" id="img-dot-2"></label>
+					<label for="img-3" class="nav-dot" id="img-dot-3"></label>
+					<label for="img-4" class="nav-dot" id="img-dot-4"></label>
+					<label for="img-5" class="nav-dot" id="img-dot-5"></label>
+					<label for="img-6" class="nav-dot" id="img-dot-6"></label>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Icon Boxes -->
+
+		<div class="icon_boxes">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="icon_box_title">
+							<h1>Estamos Prestos a Servirle!</h1>
+						</div>
+						<div class="button icon_box_button trans_200">
+							<a href="contact.html" class="trans_200">Contactenos</a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 icon_box_col">
+
+						<!-- Icon Box Item -->
+						<div class="icon_box_item">
+							<h2>Desarrollo Web</h2>
+							<p>Desarrollamos paginas web de acuerdo a sus necesidades, con herramientas capaces de
+								diseñar paginas tan
+								eficientes y ajustables a cualquier tipo de plataforma.</p>
+						</div>
+
+						<!-- Icon Box Item -->
+						<div class="icon_box_item">
+							<h2>Desarrollo App Movil</h2>
+							<p>Desarrollamos apps moviles con el fin de facilitar y simplicar el uso de servicios web
+								dando paso
+								al manejo sencillo desde su Smartphone.</p>
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 icon_box_col">
+
+						<!-- Icon Box Item -->
+						<div class="icon_box_item">
+							<h2>Equipos Informaticos</h2>
+							<p>Ofrecemos productos tecnologicos de primera calidad, dejando de lado la vieja tecnologia
+								y mirando hacia
+								el futuro, un futro que nos trae grandes cosas.</p>
+						</div>
+
+						<!-- Icon Box Item -->
+						<div class="icon_box_item">
+							<h2>Servicios Informaticos</h2>
+							<p>Contamos con tecnicos profesionales, brindando un excelente servicio a nuestros clientes
+								y de esta forma
+								hacer de nuestra empresa la mejor.</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Servicios -->
+
+		<div class="services">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<div class="section_title">
+							<h1>Algunos de Nuestros Productos/Servicios</h1>
+							<span>Exploremos</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="h_slider_container services_slider_container">
+				<div class="service_slider_outer">
+					<!-- Services Slider -->
+					<div class="owl-carousel owl-theme services_slider">
+
+						<!-- Services Slider Item-->
+						<div class="owl-item services_item">
+							<div class="services_item_inner">
+								<div class="service_item_content">
+									<div class="service_item_title">
+										<div class="service_item_icon">
+											<div data-icon="&#xe020;" class="icon"></div>
+										</div>
+										<h2>Blog Cursos</h2>
 									</div>
-									<h2>SystemMaster</h2>
+									<p>Permite compartir cursos gratuitos en linea de manera que si no tienes
+										presupuesto para algo de paga esta es tu opccion correcta.</p>
+									<div class="button service_item_button trans_200">
+										<a href="https://administrador-2acb9.web.app/" class="trans_200"
+											target="_blank">Visitar</a>
+									</div>
 								</div>
-								<p>Permite compartir cursos gratuitos en linea de manera que si no tienes presupuesto para algo de paga esta es tu opccion correcta.</p>
-								<div class="button service_item_button trans_200">
-									<a href="https://administrador-2acb9.web.app/" class="trans_200" target="_blank">Visitar</a>
+							</div>
+						</div>
+
+						<!-- Services Slider Item-->
+						<div class="owl-item services_item">
+							<div class="services_item_inner">
+								<div class="service_item_content">
+									<div class="service_item_title">
+										<div class="service_item_icon">
+											<div data-icon="&#xe05e;" class="icon"></div>
+										</div>
+										<h2>Blog SystemMaster</h2>
+									</div>
+									<p>Compartimos a diario las mejores noticias sobre tecnologia a que esperas para
+										visitarnos y seguirnos.</p>
+									<div class="button service_item_button trans_200">
+										<a href="https://blogrichardfernando.blogspot.com/" class="trans_200"
+											target="_blank">Visitar</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Services Slider Item-->
+						<div class="owl-item services_item">
+							<div class="services_item_inner">
+								<div class="service_item_content">
+									<div class="service_item_title">
+										<div class="service_item_icon">
+											<div data-icon="&#xe031;" class="icon"></div>
+										</div>
+										<h2>Biblioteca Rapids</h2>
+									</div>
+									<p>Pagina en desarrollo la cual servira para que descargues todos los libros que
+										hubiesen disponibles
+										puedes ver su avance entra YA!.</p>
+									<div class="button service_item_button trans_200">
+										<a href="https://repo-biblioteca-practica.vercel.app/" class="trans_200"
+											target="_blank">Visitar</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Services Slider Item-->
+						<div class="owl-item services_item">
+							<div class="services_item_inner">
+								<div class="service_item_content">
+									<div class="service_item_title">
+										<div class="service_item_icon">
+											<div data-icon="&#xe010;" class="icon"></div>
+										</div>
+										<h2>Ooops</h2>
+									</div>
+									<p>Ooops es un pequeño juego de prueba que realize tiempo atras si quieres ser el
+										crack de este juego DEMUESTRALO!!!</p>
+									<div class="button service_item_button trans_200">
+										<a href="###" class="trans_200" onclick="campoVacio()">Visitar</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="services_slider_nav services_slider_nav_left"><i
+							class="fas fa-chevron-left trans_200"></i></div>
+					<div class="services_slider_nav services_slider_nav_right"><i
+							class="fas fa-chevron-right trans_200"></i></div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Features -->
+
+		<div class="features">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+
+						<div class="section_title">
+							<h1>Herramientas de Desarrollo</h1>
+						</div>
+
+					</div>
+				</div>
+				<div class="row features_row">
+
+					<div class="col-lg-4 text-lg-right features_col order-lg-1 order-2">
+
+						<!-- Features Item-->
+						<div class="features_item">
+							<h2>HTML5</h2>
+							<p>Define los nuevos estándares de desarrollo web, rediseñando el código para resolver
+								problemas.</p>
+						</div>
+
+						<!-- Features Item-->
+						<div class="features_item">
+							<h2>BOOTSTRAP-4</h2>
+							<p>Incluye plantillas de diseño basadas en HTML y CSS para tipografía, etc, así como
+								complementos de JavaScript opcionales.</p>
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 d-flex flex-column align-items-center order-lg-2 order-1">
+						<div class="features_image">
+							<img src="images/visualcode.png" alt="">
+						</div>
+						<div class="button features_button trans_200">
+							<a href="https://code.visualstudio.com/" class="trans_200" target="_blank">VS-CODE</a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 features_col order-lg-3 order-3">
+
+						<!-- Features Item-->
+						<div class="features_item">
+							<h2>REACT.JS</h2>
+							<p>Diseña vistas simples para cada estado en tu aplicación, y se encargará de actualizar y
+								renderizar los componentes.</p>
+						</div>
+
+						<!-- Features Item-->
+						<div class="features_item">
+							<h2>FIREBASE</h2>
+							<p>Plataforma digital que se utiliza para facilitar el desarrollo de aplicaciones web o
+								móviles de una forma efectiva, rápida y sencilla.</p>
+						</div>
+
+						<div class="button features_button_2 trans_200">
+							<a href="https://code.visualstudio.com/" class="trans_200" target="_blank">VS-CODE</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Call to action -->
+
+		<div class="cta">
+			<div class="cta_background" style="background-image:url(images/cta_background.jpg)"></div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 order-lg-1 order-2">
+						<div class="cta_content">
+							<h1>Por que verte Feliz es nuestro objetivo</h1>
+							<p>Registre su cita o visite nuestras comodas instalaciones, Siempre sera un placer
+								ATENDERLE y OFRECERLE nuestros amplios SERVICIOS. </p>
+						</div>
+					</div>
+
+					<div class="col-lg-6 offset-lg-1 order-lg-2 order-1">
+						<div class="cta_image d-flex flex-column justify-content-end">
+							<img src="images/modelo.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Newsletter -->
+
+		<div class="newsletter">
+			<div class="container">
+				<div class="row">
+					<div class="col text-lg-center text-left">
+						<div class="newsletter_content">
+
+							<!-- Newsletter Title -->
+							<div class="newsletter_title">
+								<h1>Forme Parte de Nuestro Blog Educativo</h1>
+								<span>Suscribase para disfrutar y compartir contenido totalmente gratis.</span>
+							</div>
+
+							<!-- Newsletter Form -->
+							<div class="newsletter_form_container">
+								<form action="###">
+									<div class="input-group">
+										<input type="email" class="newsletter_email"
+											placeholder="Ingrese su correo electronico..." required="required"
+											data-error="Valid email address is required.">
+										<button id="newsletter_form_submit" type="submit"
+											class="button newsletter_submit_button trans_200" value="Submit">
+											Suscribirse
+										</button>
+									</div>
+
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-4">
+
+						<!-- Footer Intro -->
+						<div class="footer_intro">
+
+							<!-- Logo -->
+							<div class="logo footer_logo">
+								<a href="#">System<span>Master</span></a>
+							</div>
+
+							<p>Tambien puede localizarnos en nuestras distintas redes sociales.</p>
+
+							<!-- Social -->
+							<div class="footer_social">
+								<ul>
+									<li><a href="https://www.facebook.com/richard.jimenez.1800" target="_blank"><i
+												class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://www.instagram.com/richard_f_j_/" target="_blank"><i
+												class="fab fa-instagram"></i></a></li>
+									<li><a href="https://twitter.com/Richard6_10" target="_blank"><i
+												class="fab fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/richard-jimenez-5137491a5/"
+											target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="https://github.com/SystemMasterPro" target="_blank"><i
+												class="fab fa-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col">
+								<div class="footer_cr_2">
+									Copyright &copy; Todos los derechos resrvados | DEVELOPER <i class="fa fa-heart"
+										aria-hidden="true"></i> <a href="###">Richard Fernando</a>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<!-- Services Slider Item-->
-					<div class="owl-item services_item">
-						<div class="services_item_inner">
-							<div class="service_item_content">
-								<div class="service_item_title">
-									<div class="service_item_icon">
-										<div data-icon="&#xe05e;" class="icon"></div>
-									</div>
-									<h2>BlogMaster</h2>
-								</div>
-								<p>Brindamos informacion acerca de la carrera Tecnologica Desarrollo de Software asi como herramientas para comenzar con la misma.</p>
-								<div class="button service_item_button trans_200">
-									<a href="https://blogrichardfernando.blogspot.com/" class="trans_200" target="_blank">Visitar</a>
-								</div>
-							</div>
+					<div class="col-lg-4">
+						<!-- Copyright -->
+						<div class="footer_cr">
+							Copyright &copy; Todos los derechos resrvados | DEVELOPER <i class="fa fa-heart"
+								aria-hidden="true"></i> <a href="###">Richard Fernando</a>
 						</div>
-					</div>
 
-					<!-- Services Slider Item-->
-					<div class="owl-item services_item">
-						<div class="services_item_inner">
-							<div class="service_item_content">
-								<div class="service_item_title">
-									<div class="service_item_icon">
-										<div data-icon="&#xe031;" class="icon"></div>
-									</div>
-									<h2>Trello V2.0</h2>
-								</div>
-								<p>Sitio Web en desarrollo con el fin de facilitar y brindar un servicio de calendario y agenda para que todo se lleve de manera organizada.</p>
-								<div class="button service_item_button trans_200">
-									<a href="https://proyectotrello-9c187.web.app/" class="trans_200" target="_blank">Visitar</a>
-								</div>
-							</div>
-						</div>
 					</div>
-
-					<!-- Services Slider Item-->
-					<div class="owl-item services_item">
-						<div class="services_item_inner">
-							<div class="service_item_content">
-								<div class="service_item_title">
-									<div class="service_item_icon">
-										<div data-icon="&#xe010;" class="icon"></div>
-									</div>
-									<h2>EERSSA App</h2>
-								</div>
-								<p>Proyecto en elaboracion, con el fin de brindar a toda la ciudadania local estar al tanto de su consumo, pagos asi como atrasados emitidos por la EERSSA.</p>
-								<div class="button service_item_button trans_200">
-									<a href="###" class="trans_200">Visitar</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
 				</div>
-			
-				<div class="services_slider_nav services_slider_nav_left"><i class="fas fa-chevron-left trans_200"></i></div>
-				<div class="services_slider_nav services_slider_nav_right"><i class="fas fa-chevron-right trans_200"></i></div>
-
 			</div>
-		</div>
+		</footer>
+
 	</div>
+	<!-- JS Particles.js -->
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script src="js/app.js"></script>
 
-	<!-- Features -->
-
-	<div class="features">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-
-					<div class="section_title">
-						<h1>Herramientas de Desarrollo</h1>
-					</div>
-
-				</div>
-			</div>
-			<div class="row features_row">
-
-				<div class="col-lg-4 text-lg-right features_col order-lg-1 order-2">
-					
-					<!-- Features Item-->
-					<div class="features_item">
-						<h2>HTML5</h2>
-						<p>Define los nuevos estándares de desarrollo web, rediseñando el código para resolver problemas.</p>
-					</div>
-
-					<!-- Features Item-->
-					<div class="features_item">
-						<h2>BOOTSTRAP-4</h2>
-						<p>Incluye plantillas de diseño basadas en HTML y CSS para tipografía, etc, así como complementos de JavaScript opcionales.</p>
-					</div>
-
-				</div>
-
-				<div class="col-lg-4 d-flex flex-column align-items-center order-lg-2 order-1">
-					<div class="features_image">
-						<img src="images/visualcode.png" alt="">
-					</div>
-					<div class="button features_button trans_200">
-						<a href="https://code.visualstudio.com/" class="trans_200" target="_blank">VS-CODE</a>
-					</div>
-				</div>
-
-				<div class="col-lg-4 features_col order-lg-3 order-3">
-					
-					<!-- Features Item-->
-					<div class="features_item">
-						<h2>REACT.JS</h2>
-						<p>Diseña vistas simples para cada estado en tu aplicación, y se encargará de actualizar y renderizar los componentes.</p>
-					</div>
-
-					<!-- Features Item-->
-					<div class="features_item">
-						<h2>FIREBASE</h2>
-						<p>Plataforma digital que se utiliza para facilitar el desarrollo de aplicaciones web o móviles de una forma efectiva, rápida y sencilla.</p>
-					</div>
-
-					<div class="button features_button_2 trans_200">
-						<a href="https://code.visualstudio.com/" class="trans_200" target="_blank">VS-CODE</a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Call to action -->
-
-	<div class="cta">
-		<div class="cta_background" style="background-image:url(images/cta_background.jpg)"></div>
-		
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 order-lg-1 order-2">
-					<div class="cta_content">
-						<h1>Por que verte Feliz es nuestro objetivo</h1>
-						<p>Registre su cita o visite nuestras comodas instalaciones, Siempre sera un placer ATENDERLE y OFRECERLE nuestros amplios SERVICIOS.  </p>
-					</div>
-				</div>
-
-				<div class="col-lg-6 offset-lg-1 order-lg-2 order-1">
-					<div class="cta_image d-flex flex-column justify-content-end">
-						<img src="images/fondo1.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Newsletter -->
-
-	<div class="newsletter">
-		<div class="container">
-			<div class="row">
-				<div class="col text-lg-center text-left">
-					<div class="newsletter_content">
-
-						<!-- Newsletter Title -->
-						<div class="newsletter_title">
-							<h1>Forme Parte de Nuestro Blog Educativo</h1>
-							<span>Suscribase para disfrutar y compartir contenido totalmente gratis.</span>
-						</div>
-						
-						<!-- Newsletter Form -->
-						<div class="newsletter_form_container">
-							<form action="###">
-								<div class="input-group">
-									<input type="email" class="newsletter_email" placeholder="Ingrese su correo electronico..." required="required" data-error="Valid email address is required.">
-									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
-										Suscribirse
-									</button>
-								</div>
-									
-							</form>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-lg-4">
-
-					<!-- Footer Intro -->
-					<div class="footer_intro">
-
-						<!-- Logo -->
-						<div class="logo footer_logo">
-							<a href="#">System<span>Master</span></a>
-						</div>
-
-						<p>Tambien puede localizarnos en nuestras distintas redes sociales.</p>
-						
-						<!-- Social -->
-						<div class="footer_social">
-							<ul>
-								<li><a href="https://www.facebook.com/richard.jimenez.1800" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="https://www.instagram.com/richard_f_j_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="https://twitter.com/Richard6_10" target="_blank"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/richard-jimenez-5137491a5/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="https://github.com/SystemMasterPro" target="_blank"><i class="fab fa-github"></i></a></li>
-							</ul>
-						</div>
-					</div>
-
-							<div class="row">
-								<div class="col">
-									<div class="footer_cr_2">
-										Copyright &copy; Todos los derechos resrvados | DEVELOPER <i class="fa fa-heart" aria-hidden="true"></i> <a href="###">Richard Fernando</a>
-									</div>
-								</div>
-							</div>
-				</div>
-				<div class="col-lg-4">				
-					<!-- Copyright -->
-					<div class="footer_cr">
-						Copyright &copy; Todos los derechos resrvados | DEVELOPER <i class="fa fa-heart" aria-hidden="true"></i> <a href="###">Richard Fernando</a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</footer>
-
-</div>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="librerias/bootstrap4/popper.js"></script>
-<script src="librerias/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/slick-1.8.0/slick.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/custom.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="librerias/bootstrap4/popper.js"></script>
+	<script src="librerias/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/slick-1.8.0/slick.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/animaciones.js"></script>
 </body>
 
 </html>
