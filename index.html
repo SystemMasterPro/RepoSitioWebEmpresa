@@ -18,6 +18,8 @@
 	<link rel="stylesheet" type="text/css" href="css/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" href="./css/extra.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,13 +30,13 @@
 
 			<!-- Logo -->
 			<div class="logo mr-auto">
-				<a href="#">System<span>Master</span></a>
+				<a href="index.html">System<span>Master</span></a>
 			</div>
 
 			<!-- Barra Navegacion -->
 			<nav class="main_nav justify-self-end text-right">
 				<ul>
-					<li class="active"><a href="#">General</a></li>
+					<li class="active"><a href="index.html">General</a></li>
 					<li><a href="portfolio.html">Mision/Vision</a></li>
 					<li><a href="services.html">Servicios</a></li>
 					<li><a href="contact.html">Contacto</a></li>
@@ -49,19 +51,19 @@
 
 		</header>
 
-		<!-- Menu -->
+		<!-- Menu Movil -->
 
-		<div class="menu_container" style="background-color: rgb(108, 104, 104);">
+		<div class="menu_container" style="background-color: rgb(0, 0, 0);color: white;">
 			<!-- ID Particles.js -->
 			<div id="particles-js">
 				<div class="menu menu_mm text-right">
 					<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
 					<ul class="menu_mm">
-						<li class="menu_mm active"><a href="#">General</a></li>
-						<li class="menu_mm"><a href="portfolio.html">Mision/Vision</a></li>
-						<li class="menu_mm"><a href="services.html">Servicios</a></li>
-						<li class="menu_mm"><a href="contact.html">Contacto</a></li>
-						<li class="menu_mm"><a href="about.html">Acerca de</a></li>
+						<li class="menu_mm active"><a href="index.html" style="color: white;font-size: 25px;">General</a></li>
+						<li class="menu_mm"><a href="portfolio.html" style="color: white;font-size: 25px;">Mision/Vision</a></li>
+						<li class="menu_mm"><a href="services.html" style="color: white;font-size: 25px;">Servicios</a></li>
+						<li class="menu_mm"><a href="contact.html" style="color: white;font-size: 25px;">Contacto</a></li>
+						<li class="menu_mm"><a href="about.html" style="color: white;font-size: 25px;">Acerca de</a></li>
 					</ul>
 				</div>
 			</div>
@@ -74,55 +76,8 @@
 				<input type="radio" name="radio-btn" id="img-1" checked />
 				<li class="slide-container">
 					<div class="slide">
-						<img
-							src="https://www.qempo.com.pe/blog/wp-content/uploads/2019/08/asus-republic-of-gamers-peru.jpg" />
+						<img src="" id="imagen"/>
 					</div>
-				</li>
-
-				<input type="radio" name="radio-btn" id="img-2" />
-				<li class="slide-container">
-					<div class="slide">
-						<img src="https://i.pinimg.com/originals/cf/c3/4b/cfc34bcc38e39f1e07c0ba8d3c3e557e.jpg" />
-					</div>
-				</li>
-
-				<input type="radio" name="radio-btn" id="img-3" />
-				<li class="slide-container">
-					<div class="slide">
-						<img src="https://www.xmg.gg/wp-content/uploads/background_fusion-15.jpg" />
-					</div>
-				</li>
-
-				<input type="radio" name="radio-btn" id="img-4" />
-				<li class="slide-container">
-					<div class="slide">
-						<img src="https://images5.alphacoders.com/757/thumb-1920-757508.jpg" />
-					</div>
-				</li>
-
-				<input type="radio" name="radio-btn" id="img-5" />
-				<li class="slide-container">
-					<div class="slide">
-						<img
-							src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/05/dell-xps-17-xps-15-1941589.jpg" />
-					</div>
-				</li>
-
-				<input type="radio" name="radio-btn" id="img-6" />
-				<li class="slide-container">
-					<div class="slide">
-						<img
-							src="https://besthqwallpapers.com/img/original/94942/dell-black-logo-creative-metal-grid-background-dell-logo-brands.jpg" />
-					</div>
-				</li>
-
-				<li class="nav-dots">
-					<label for="img-1" class="nav-dot" id="img-dot-1"></label>
-					<label for="img-2" class="nav-dot" id="img-dot-2"></label>
-					<label for="img-3" class="nav-dot" id="img-dot-3"></label>
-					<label for="img-4" class="nav-dot" id="img-dot-4"></label>
-					<label for="img-5" class="nav-dot" id="img-dot-5"></label>
-					<label for="img-6" class="nav-dot" id="img-dot-6"></label>
 				</li>
 			</ul>
 		</div>
@@ -478,6 +433,25 @@
 		</footer>
 
 	</div>
+
+	<script>
+		const box= ['./images/5.jpg','./images/1.jpg','./images/11.jpg','./images/15.jpg'];
+
+		function rotarImage(){
+			count=0
+			document.getElementById('imagen').src = box[count];
+			count=1
+			setInterval(() => {
+				document.getElementById('imagen').src = box[count];
+				count++
+				if (count===4) {
+					count=0
+				}
+			}, 3000);	
+		}
+
+		rotarImage()
+	</script>
 	<!-- JS Particles.js -->
 	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 	<script src="js/app.js"></script>
