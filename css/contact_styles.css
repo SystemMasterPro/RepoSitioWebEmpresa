@@ -929,6 +929,7 @@ section
 	padding-top: 99px;
 	padding-bottom: 82px;
 	border-top: solid 1px #dcdcdc;
+	background-color: #452b78;
 }
 .footer_logo
 {
@@ -937,7 +938,7 @@ section
 }
 .footer_logo a
 {
-	color: #452b78;
+	color: #ffffff;
 	line-height: 1;
 }
 .footer_intro p
